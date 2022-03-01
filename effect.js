@@ -21,7 +21,7 @@ $('document').ready(function () {
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
 		$('body').css('background-color', 'peachpuff');
 		$('.loading').fadeOut('fast');
-		$('.container-fluid').fadeIn('linear');
+		$('.container').fadeIn('linear');
 	}, 3000);
 	
 });
