@@ -1,5 +1,5 @@
 $(window).load(function () {
-	$('.loading').fadeIn('fast');
+	$('.loading').fadeIn('linear');
  	//$('.container-fluid').fadeOut('linear');
 });
 $('document').ready(function () {
@@ -20,7 +20,7 @@ $('document').ready(function () {
 		$('#bulb_pink').addClass('bulb-glow-pink-after');
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
 		$('body').css('background-color', 'peachpuff');
-		$('.loading').fadeOut('fast');
+		$('.loading').fadeOut('linear');
 		$('.container').fadeIn('linear');
 	}, 3000);
 	
