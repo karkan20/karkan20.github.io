@@ -1,3 +1,18 @@
+.container {
+    background-color: white;
+    color: #ff7a59;
+    display: none;
+    border-bottom-right-radius: 3.25rem !important;
+    border-bottom-left-radius: 3.25rem !important;
+    border-top-left-radius: 3.25rem !important;
+    border-top-right-radius: 3.25rem !important;
+    border: 18px solid #9dc5e4 !important;
+}
+
+.img-load{
+    width: -webkit-fill-available;
+}
+
 .bt-site-footer {
     font-weight: 400;
     line-height: 1.8em;
