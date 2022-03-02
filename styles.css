@@ -13,6 +13,19 @@
     width: -webkit-fill-available;
 }
 
+.countdown{
+    color: #baa37b;
+    font-size: 3rem;
+    font-family: 'Niconne', 'cursive';
+    text-align: -webkit-center;
+    display: none;
+    margin-top: 5rem;
+    /* padding: 22rem;
+    font-weight: bold;
+    justify-content: center;
+    margin-left: 1rem; */
+}
+
 .bt-site-footer {
     font-weight: 400;
     line-height: 1.8em;
