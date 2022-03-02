@@ -1,6 +1,8 @@
 $(window).load(function () {
 	$('.loading').fadeIn('linear');
+	//$('.countdown').slideDown(1000);
 	$('.countdown').fadeIn('linear');
+	//$('.welcome').fadeOut('linear');
 	//$('.container-fluid').fadeOut('linear');
 });
 $('document').ready(function () {
@@ -53,22 +55,17 @@ $('document').ready(function () {
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
 		$('body').css('background-color', 'peachpuff');
 		// $('.countdown').css("margin-top","0rem");
-		$('.countdown').fadeOut('linear');
+		$('.countdown').slideUp(2000);
+		//$('.loading').slideUp(1000);
 		$('.loading').fadeOut('linear');
-		//$('.container').fadeIn('linear');
+		//$('.welcome').fadeOut('linear');
+		//$('.container').slideDown(2000);
+		//$('.countdown').fadeIn('linear');
 	}, 3000);
 
 	setInterval(function () {
-		// $('#bulb_yellow').addClass('bulb-glow-yellow-after');
-		// $('#bulb_red').addClass('bulb-glow-red-after');
-		// $('#bulb_blue').addClass('bulb-glow-blue-after');
-		// $('#bulb_green').addClass('bulb-glow-green-after');
-		// $('#bulb_pink').addClass('bulb-glow-pink-after');
-		// $('#bulb_orange').addClass('bulb-glow-orange-after');
-		// $('body').css('background-color', 'peachpuff');
-		// $('.countdown').fadeOut('linear');
-		// $('.loading').fadeOut('linear');
-		$('.container').fadeIn('linear');
+		//$('.welcome').fadeOut('linear');
+		$('.container').slideDown(3000);
 	}, 4000);
 
 
