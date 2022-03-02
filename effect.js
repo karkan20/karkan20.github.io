@@ -28,7 +28,7 @@ $('document').ready(function () {
 		var minutes = Math.floor((distance % _hour) / _minute);
 		var seconds = Math.floor((distance % _minute) / _second);
 
-		document.getElementById('countdown').innerHTML = days + ' Days Remaining to celebrate...';
+		document.getElementById('countdown').innerHTML = days + ' days remaining to celebrate...';
 		// document.getElementById('countdown').innerHTML += hours + 'hrs ';
 		// document.getElementById('countdown').innerHTML += minutes + 'mins ';
 		// document.getElementById('countdown').innerHTML += seconds + 'secs';
@@ -52,10 +52,25 @@ $('document').ready(function () {
 		$('#bulb_pink').addClass('bulb-glow-pink-after');
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
 		$('body').css('background-color', 'peachpuff');
+		// $('.countdown').css("margin-top","0rem");
 		$('.countdown').fadeOut('linear');
 		$('.loading').fadeOut('linear');
+		//$('.container').fadeIn('linear');
+	}, 3000);
+
+	setInterval(function () {
+		// $('#bulb_yellow').addClass('bulb-glow-yellow-after');
+		// $('#bulb_red').addClass('bulb-glow-red-after');
+		// $('#bulb_blue').addClass('bulb-glow-blue-after');
+		// $('#bulb_green').addClass('bulb-glow-green-after');
+		// $('#bulb_pink').addClass('bulb-glow-pink-after');
+		// $('#bulb_orange').addClass('bulb-glow-orange-after');
+		// $('body').css('background-color', 'peachpuff');
+		// $('.countdown').fadeOut('linear');
+		// $('.loading').fadeOut('linear');
 		$('.container').fadeIn('linear');
-	}, 5000);
+	}, 4000);
+
 
 });
 
