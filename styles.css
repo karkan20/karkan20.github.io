@@ -19,6 +19,7 @@
     font-size: 3rem;
     text-align: -webkit-center;
     margin-top: 3rem;
+    display: none;
 }
 
 .countdown{

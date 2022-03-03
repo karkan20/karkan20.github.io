@@ -2,7 +2,7 @@ $(window).load(function () {
 	$('.loading').fadeIn('linear');
 	//$('.countdown').slideDown(1000);
 	$('.countdown').fadeIn('linear');
-	//$('.welcome').fadeOut('linear');
+	$('.welcome').fadeIn('linear');
 	//$('.container-fluid').fadeOut('linear');
 });
 $('document').ready(function () {
