@@ -14,6 +14,13 @@
     width: -webkit-fill-available;
 }
 
+.welcome{
+    color: #baa37b;
+    font-size: 3rem;
+    text-align: -webkit-center;
+    margin-top: 3rem;
+}
+
 .countdown{
     color: #baa37b;
     font-size: 3rem;
