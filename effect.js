@@ -58,6 +58,7 @@ $('document').ready(function () {
 		$('.countdown').slideUp(2000);
 		//$('.loading').slideUp(1000);
 		$('.loading').fadeOut('linear');
+		$('.welcome').fadeOut('linear');
 		//$('.welcome').fadeOut('linear');
 		//$('.container').slideDown(2000);
 		//$('.countdown').fadeIn('linear');
