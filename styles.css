@@ -10,6 +10,10 @@
     margin-top: 2rem;
 }
 
+/* .priyan{
+    font-family: 'Corben', cursive;
+} */
+
 .img-load{
     width: -webkit-fill-available;
 }
@@ -490,7 +494,7 @@
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
-    font-family: 'Corben', cursive;
+    /* font-family: 'Corben', cursive; */
     /* font-family: 'Sansita Swashed', cursive; */
 }
 
