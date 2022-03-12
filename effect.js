@@ -28,9 +28,10 @@ $('document').ready(function () {
 	}
 
 	function setDayTimeAsPerTimeZone() {
-		var autodate = new Date('4/14/2022 10:00:00 AM').toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
-		//new Date().toLocaleString("en-US", {timeZone: "America/New_York"})
-		console.log("converteddate " + autodate.toString())
+
+		var date = new Date().getTimezoneOffset();
+		var autodate = new Date(Date.UTC(2022, 3, 14, 4, 30)); //
+		
 		var acutaldate = new Date(autodate);
 		var actual_day = acutaldate.getDate(); //Date of the month: 2 in our example
 		// var actual_month = acutaldate.getMonth(); //Month of the Year: 0-based index, so 1 in our example
